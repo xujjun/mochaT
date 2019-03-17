@@ -1,0 +1,28 @@
+{
+  "name": "airwallex",
+  "version": "1.0.0",
+  "description": "mocha api testing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai-http": "^4.2.1",
+    "chai": "^4.2.0",
+    "commander": "^2.19.0",
+    "express": "^4.16.4",
+    "mochawesome": "^3.1.1",
+    "supertest": "^4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  },
+  "scripts": {
+    "envp": "node ./library/setEnvInfo.js -p",
+    "envd": "node ./library/setEnvInfo.js -d",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
