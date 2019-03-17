@@ -1,6 +1,8 @@
 # mochaT
+
 About Mocha API Testing
-	•	How to use
+
+	• How to use
 			Install the dependencies locally and Mocha globally
 			```bash
 			$ cd mochaT
